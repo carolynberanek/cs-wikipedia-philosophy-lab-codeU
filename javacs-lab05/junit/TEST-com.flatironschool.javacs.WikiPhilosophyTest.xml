@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="Carolyn-Laptop" name="com.flatironschool.javacs.WikiPhilosophyTest" skipped="0" tests="1" time="8.299" timestamp="2016-07-31T18:56:23">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation" />
+    <property name="env.SYSTEMROOT" value="C:\Windows" />
+    <property name="env.USERDOMAIN_ROAMINGPROFILE" value="CAROLYN-LAPTOP" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="env.PROMPT" value="$P$G" />
+    <property name="env.LESSCHARSET" value="utf-8" />
+    <property name="os.name" value="Windows 8.1" />
+    <property name="env.HISTFILE" value="c:/Users/Carolyn/.bash_history" />
+    <property name="env.FP_NO_HOST_CHECK" value="NO" />
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_60\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_60\jre\classes" />
+    <property name="env.COMPUTERNAME" value="CAROLYN-LAPTOP" />
+    <property name="env.PWD" value="c:/Sites/cs-wikipedia-philosophy-lab-codeU" />
+    <property name="env.MAKE_MODE" value="unix" />
+    <property name="env.ALLUSERSPROFILE" value="C:\ProgramData" />
+    <property name="sun.desktop" value="windows" />
+    <property name="env.LESS" value="-FRSX" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="ant.home" value="C:\Program Files\Ant\apache-ant-1.9.6" />
+    <property name="java.runtime.version" value="1.8.0_60-b27" />
+    <property name="env.HOMEPATH" value="\Users\Carolyn" />
+    <property name="user.name" value="Carolyn" />
+    <property name="env._" value="c:/RailsInstaller/Ruby2.2.0/bin/learn-test" />
+    <property name="env.USER" value="Carolyn" />
+    <property name="env.GNUPGHOME" value="c:/Users/Carolyn/.gnupg" />
+    <property name="env.MSYSTEM" value="MINGW32" />
+    <property name="env.PATH" value="c:\Users\Carolyn\bin;.;C:\RailsInstaller\Git\local\bin;C:\RailsInstaller\Git\mingw\bin;C:\RailsInstaller\Git\bin;c:\ProgramData\Oracle\Java\javapath;c:\Program Files (x86)\Intel\iCLS Client\;c:\Program Files\Intel\iCLS Client\;c:\Windows\system32;c:\Windows;c:\Windows\System32\Wbem;c:\Windows\System32\WindowsPowerShell\v1.0\;c:\Program Files\Intel\Intel(R) Management Engine Components\DAL;c:\Program Files\Intel\Intel(R) Management Engine Components\IPT;c:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;c:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;c:\Program Files\Intel\WiFi\bin\;c:\Program Files\Common Files\Intel\WirelessCommon\;c:\Program Files (x86)\Windows Live\Shared;c:\Program Files (x86)\Common Files\Adobe\AGL;c:\Program Files (x86)\Skype\Phone\;C:\RailsInstaller\Git\cmd;c:\RailsInstaller\Ruby2.2.0\bin;c:\Program Files\Java\jdk1.8.0_60;c:\Program Files\Ant\apache-ant-1.9.6\bin;c:\Program Files\Ant\apache-ant-1.9.6\lib" />
+    <property name="user.language" value="en" />
+    <property name="env.WINDIR" value="C:\Windows" />
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_60\jre\bin" />
+    <property name="ant.project.default-target" value="build" />
+    <property name="env.KMP_DUPLICATE_LIB_OK" value="TRUE" />
+    <property name="ant.project.name" value="JavaCS" />
+    <property name="java.version" value="1.8.0_60" />
+    <property name="env.PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 69 Stepping 1, GenuineIntel" />
+    <property name="user.timezone" value="" />
+    <property name="env.TEMP" value="C:/Users/Carolyn/AppData/Local/Temp" />
+    <property name="sun.arch.data.model" value="64" />
+    <property name="env.!::" value="::\" />
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_60\jre\lib\endorsed" />
+    <property name="env._JAVACMD" value="C:\Program Files\Java\jdk1.8.0_60\bin\java.exe" />
+    <property name="sun.cpu.isalist" value="amd64" />
+    <property name="env.HOMEDRIVE" value="C:" />
+    <property name="sun.jnu.encoding" value="Cp1252" />
+    <property name="file.encoding.pkg" value="sun.io" />
+    <property name="env.SHLVL" value="1" />
+    <property name="env.SYSTEMDRIVE" value="C:" />
+    <property name="file.separator" value="\" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="java.class.version" value="52.0" />
+    <property name="user.country" value="US" />
+    <property name="ant.file.JavaCS" value="c:\Sites\cs-wikipedia-philosophy-lab-codeU\javacs-lab05\build.xml" />
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_60\jre" />
+    <property name="env.APPDATA" value="C:\Users\Carolyn\AppData\Roaming" />
+    <property name="env.PUBLIC" value="C:\Users\Public" />
+    <property name="java.vm.info" value="mixed mode" />
+    <property name="env.OS" value="Windows_NT" />
+    <property name="env.LOGNAME" value="Carolyn" />
+    <property name="ant.file" value="c:\Sites\cs-wikipedia-philosophy-lab-codeU\javacs-lab05\build.xml" />
+    <property name="os.version" value="6.3" />
+    <property name="env._USE_CLASSPATH" value="no" />
+    <property name="path.separator" value=";" />
+    <property name="java.vm.version" value="25.60-b23" />
+    <property name="env.ASL.LOG" value="Destination=file" />
+    <property name="user.variant" value="" />
+    <property name="env.USERPROFILE" value="C:\Users\Carolyn" />
+    <property name="ant.library.dir" value="C:\Program Files\Ant\apache-ant-1.9.6\lib" />
+    <property name="junit.output.dir" value="junit" />
+    <property name="env.SSL_CERT_FILE" value="C:\RailsInstaller\cacert.pem" />
+    <property name="env.JAVA_HOME" value="C:\Program Files\Java\jdk1.8.0_60" />
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+    <property name="env.TERM" value="cygwin" />
+    <property name="env.PROGRAMFILES" value="C:\Program Files" />
+    <property name="env.TMP" value="C:/Users/Carolyn/AppData/Local/Temp" />
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+    <property name="sun.stdout.encoding" value="cp437" />
+    <property name="user.script" value="" />
+    <property name="user.home" value="C:\Users\Carolyn" />
+    <property name="target" value="1.7" />
+    <property name="env.COMMONPROGRAMFILES" value="C:\Program Files\Common Files" />
+    <property name="env.SESSIONNAME" value="Console" />
+    <property name="env.OLDPWD" value="c:/Sites" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="java.vendor.url" value="http://java.oracle.com/" />
+    <property name="env.NUMBER_OF_PROCESSORS" value="4" />
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_60\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;c:\Users\Carolyn\bin;.;C:\RailsInstaller\Git\local\bin;C:\RailsInstaller\Git\mingw\bin;C:\RailsInstaller\Git\bin;c:\ProgramData\Oracle\Java\javapath;c:\Program Files (x86)\Intel\iCLS Client\;c:\Program Files\Intel\iCLS Client\;c:\Windows\system32;c:\Windows;c:\Windows\System32\Wbem;c:\Windows\System32\WindowsPowerShell\v1.0\;c:\Program Files\Intel\Intel(R) Management Engine Components\DAL;c:\Program Files\Intel\Intel(R) Management Engine Components\IPT;c:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;c:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;c:\Program Files\Intel\WiFi\bin\;c:\Program Files\Common Files\Intel\WirelessCommon\;c:\Program Files (x86)\Windows Live\Shared;c:\Program Files (x86)\Common Files\Adobe\AGL;c:\Program Files (x86)\Skype\Phone\;C:\RailsInstaller\Git\cmd;c:\RailsInstaller\Ruby2.2.0\bin;c:\Program Files\Java\jdk1.8.0_60;c:\Program Files\Ant\apache-ant-1.9.6\bin;c:\Program Files\Ant\apache-ant-1.9.6\lib;." />
+    <property name="env.COMMONPROGRAMFILES(X86)" value="C:\Program Files (x86)\Common Files" />
+    <property name="env.PSMODULEPATH" value="C:\Windows\system32\WindowsPowerShell\v1.0\Modules\" />
+    <property name="java.vm.vendor" value="Oracle Corporation" />
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner com.flatironschool.javacs.WikiPhilosophyTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,c:\Sites\cs-wikipedia-philosophy-lab-codeU\javacs-lab05\junit\TEST-com.flatironschool.javacs.WikiPhilosophyTest.xml formatter=org.apache.tools.ant.taskdefs.optional.junit.PlainJUnitResultFormatter crashfile=c:\Sites\cs-wikipedia-philosophy-lab-codeU\javacs-lab05\junitvmwatcher1471235559499495031.properties propsfile=c:\Sites\cs-wikipedia-philosophy-lab-codeU\javacs-lab05\junit6810569683417976857.properties" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.9.6 compiled on June 29 2015" />
+    <property name="java.class.path" value="c:\Sites\cs-wikipedia-philosophy-lab-codeU\javacs-lab05\bin;c:\Sites\cs-wikipedia-philosophy-lab-codeU\javacs-lab05\lib\jsoup-1.8.3.jar;c:\Sites\cs-wikipedia-philosophy-lab-codeU\javacs-lab05\lib\junit-4.12.jar;c:\Sites\cs-wikipedia-philosophy-lab-codeU\javacs-lab05\lib\hamcrest-core-1.3.jar;C:\Program Files\Ant\apache-ant-1.9.6\lib\ant-launcher.jar;C:\Program Files\Ant\apache-ant-1.9.6\lib\ant.jar;C:\Program Files\Ant\apache-ant-1.9.6\lib\ant-junit.jar;C:\Program Files\Ant\apache-ant-1.9.6\lib\ant-junit4.jar" />
+    <property name="env.PROGRAMW6432" value="C:\Program Files" />
+    <property name="env.PROGRAMFILES(X86)" value="C:\Program Files (x86)" />
+    <property name="ant.file.type.JavaCS" value="file" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="ant.file.type" value="file" />
+    <property name="env.LOGONSERVER" value="\\MicrosoftAccount" />
+    <property name="env.PROCESSOR_ARCHITECTURE" value="AMD64" />
+    <property name="java.vm.specification.version" value="1.8" />
+    <property name="env.COMMONPROGRAMW6432" value="C:\Program Files\Common Files" />
+    <property name="sun.os.patch.level" value="" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="debuglevel" value="source,lines,vars" />
+    <property name="env.HOME" value="c:/Users/Carolyn" />
+    <property name="env.ANT_HOME" value="C:\Program Files\Ant\apache-ant-1.9.6" />
+    <property name="env.PROCESSOR_REVISION" value="4501" />
+    <property name="java.io.tmpdir" value="C:\Users\Carolyn\AppData\Local\Temp\" />
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+    <property name="env.COMSPEC" value="C:\Windows\system32\cmd.exe" />
+    <property name="env.PROGRAMDATA" value="C:\ProgramData" />
+    <property name="os.arch" value="amd64" />
+    <property name="env.ANT_CMD_LINE_ARGS" value=" test -buildfile javacs-lab05/build.xml" />
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+    <property name="env.PLINK_PROTOCOL" value="ssh" />
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_60\jre\lib\ext;C:\Windows\Sun\Java\lib\ext" />
+    <property name="env.FRONTLIC" value="C:\ProgramData\Frontline Systems\Solver.lic" />
+    <property name="user.dir" value="c:\Sites\cs-wikipedia-philosophy-lab-codeU" />
+    <property name="env.LOCALAPPDATA" value="C:\Users\Carolyn\AppData\Local" />
+    <property name="env.INPUTRC" value="C:/RailsInstaller/Git/etc/inputrc" />
+    <property name="line.separator" value="&#xd;&#xa;" />
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+    <property name="env.PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC" />
+    <property name="basedir" value="c:\Sites\cs-wikipedia-philosophy-lab-codeU\javacs-lab05" />
+    <property name="ant.java.version" value="1.8" />
+    <property name="ant.core.lib" value="C:\Program Files\Ant\apache-ant-1.9.6\lib\ant.jar" />
+    <property name="env.USERNAME" value="Carolyn" />
+    <property name="env.ESET_OPTIONS" value="                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               " />
+    <property name="source" value="1.7" />
+    <property name="sun.stderr.encoding" value="cp437" />
+    <property name="file.encoding" value="Cp1252" />
+    <property name="env.USERDOMAIN" value="CAROLYN-LAPTOP" />
+    <property name="java.specification.version" value="1.8" />
+    <property name="env.=C:" value="c:\Sites\cs-wikipedia-philosophy-lab-codeU" />
+    <property name="ant.project.invoked-targets" value="test" />
+    <property name="env.PROCESSOR_LEVEL" value="6" />
+  </properties>
+  <testcase classname="com.flatironschool.javacs.WikiPhilosophyTest" name="testMain" time="8.19" />
+  <system-out><![CDATA[Link: low-levelLink: non-portableLink: computing platformsLink: code objectLink: Register transfer languageLink: [3]Link: [3]]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

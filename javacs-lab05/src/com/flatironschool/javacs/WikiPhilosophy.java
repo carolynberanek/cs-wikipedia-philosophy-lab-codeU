@@ -13,6 +13,7 @@ import org.jsoup.select.Elements;
 public class WikiPhilosophy {
 
 	final static WikiFetcher wf = new WikiFetcher();
+	private static ArrayList<String> visited = new ArrayList<String>();
 
 	/**
 	 * Tests a conjecture about Wikipedia and Philosophy.
@@ -32,73 +33,81 @@ public class WikiPhilosophy {
 		// some example code to get you started
 
 		String url = "https://en.wikipedia.org/wiki/Java_(programming_language)";
+		wikiPhil(url);
+	}
 
-		Elements paragraphs = wf.fetchWikipedia(url);//gives you the paragraphs, need to get out and scan for links
-		ArrayList<String> visited = new ArrayList<String>();
-		ArrayList<Element> links = new ArrayList<Element>();
-		Elements currLinks, currParents;
-		boolean thing = false;
-		boolean hasLinks = false;
 
-		while(1==1){
-			visited.add(url);
-			if (url.equals("https://en.wikipedia.org/wiki/Philosophy"))
-			{System.out.println(visited);
-			return;}
-
-			Element firstPara = paragraphs.get(0);
-
-			Iterable<Node> iter = new WikiNodeIterable(firstPara);
-			for (Node node: iter) 
+	public static void wikiPhil(String url) throws IOException
+	{
+		Element link;
+		for(int i = 0; i < 100; i++)
+		{
+			Elements paragraphs = wf.fetchWikipedia(url);
+			if(visited.contains(url))
 			{
-				//node = (Element)no;
-				currLinks = node.select("a[href]");
-				for (Element el: currLinks)
+				return; //already visited
+			}
+			else
+			{
+				visited.add(url);
+			}
+			link = firstLink(paragraphs);
+			if (link == null)
+			{
+				return; //no links
+			}
+
+			System.out.print("Link: " + link.text());
+			url = link.attr("abs:href");
+
+			if (url.equals("https://en.wikipedia.org/wiki/Philosophy"))
+			{
+				System.out.println("made it to philosophy");
+				break;
+			}
+		}
+	}
+
+	public static Element firstLink(Elements paragraphs)
+	{
+		Element link = null;
+		for(Element e : paragraphs)
+		{
+			Iterable<Node> iter = new WikiNodeIterable(e);
+			for (Node node : iter)		
+			{
+				if(node instanceof Element)
 				{
-					hasLinks = true;
-					currParents = el.parents();
-					for (Element par: currParents)
+					if(isValid((Element)node))
 					{
-						if (!par.tagName().equals("i") || !par.tagName().equals("em"))
-							links.add(par);
+						link = (Element)node;
 					}
 				}
 			}
-
-			if (links.isEmpty())
+			if (link != null)
 			{
-				System.out.println("no links on this page, end");
-				return;
+				return link;
 			}
-			for (Element link: links)
+			else
 			{
-				if (link.attr("abs:href") == url)
-				{}
-				else
-				{
-					url = link.attr("abs:href");
-					return;
-				}
+				return null; //no links
 			}
 		}
+		return null;
+	}
 
+	public static boolean isValid(Element el)
+	{
+		while(el != null)
+		{
+			if(el.tagName().equals("i") || el.tagName().equals("em"))
+			{
+				return false;
+			}
+			el = el.parent();
+		}
+		return true;
 	}
 }
-
-
-//take first eligible link, add to list of links
-//elligible link- not italicized or bold, not a link to the current page
-
-//fetch the url from that link or determine there are no links
-
-//make sure url hasn't been visited, if it has end
-
-//go to that url
-
-//check if it's philosophy, if yes end, if no, do loop again
-
-// the following throws an exception so the test fails
-// until you update the code
-
 
 
